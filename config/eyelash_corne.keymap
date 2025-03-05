@@ -54,10 +54,10 @@
         default_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp F     &kp P  &kp G                                  &kp UP                &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp ESCAPE      &kp A  &kp R  &kp S     &kp T  &kp D                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B           &mkp MCLK              &kp DOWN              &kp K        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                              &kp LGUI  &mo 1  &mt LALT ENTER                                               &lt 3 SPACE  &mo 2  &kp RCTRL
+&kp TAB         &kp Q  &kp W  &kp F     &kp P  &kp G                               &kp K             &kp J        &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp ESCAPE      &kp A  &kp R  &kp S     &kp T  &kp D                        &kp H  &kp ENTER  &kp L  &kp H        &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B           &mkp MCLK           &kp J             &kp K        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                              &kp LGUI  &mo 1  &mt LALT ENTER                                        &lt 3 SPACE  &mo 2  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -66,10 +66,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans       &trans      &trans  &trans          &trans        &trans                                &mmv MOVE_UP                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp BSPC
-&trans       &trans      &trans  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
-&bootloader  &sys_reset  &trans  &trans          &trans        &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp PG_DN
-                                 &trans          &trans        &trans                                                                 &trans     &trans        &trans
+&trans       &trans      &trans  &trans          &trans        &trans                          &kp UP                &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp BSPC
+&trans       &trans      &trans  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans                &kp LEFT  &kp ENTER  &kp RIGHT  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
+&bootloader  &sys_reset  &trans  &trans          &trans        &trans  &kp C_MUTE              &kp DOWN              &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &kp PG_DN
+                                 &trans          &trans        &trans                                                &trans     &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;

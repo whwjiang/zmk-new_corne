@@ -77,8 +77,8 @@ layers:
   - '6'
   - {t: '=', s: +}
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,8 +175,8 @@ layers:
   - F10
   - F11
   - F12
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - RGB SAI
+  - RGB SAD
   - RGB HUI
   - RGB HUD
   - RGB SPI

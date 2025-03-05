@@ -6,7 +6,7 @@ layers:
   - F
   - P
   - G
-  - $$mdi:arrow-up-bold$$
+  - K
   - J
   - L
   - U
@@ -19,9 +19,9 @@ layers:
   - S
   - T
   - D
-  - $$mdi:arrow-left-bold$$
+  - H
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - L
   - H
   - N
   - E
@@ -35,7 +35,7 @@ layers:
   - V
   - B
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:arrow-down-bold$$
+  - J
   - K
   - M
   - {t: ',', s: <}
@@ -55,7 +55,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-up-bold$$
   - {t: '-', s: _}
   - '7'
   - '8'
@@ -68,9 +68,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
   - +
   - '4'
   - '5'
@@ -84,7 +84,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-down-bold$$
   - {t: '0', s: )}
   - '1'
   - '2'

@@ -68,8 +68,8 @@
             display-name = "NUMBER";
             bindings = <
 &bootloader  &trans     &trans     &trans        &trans     &trans                       &kp K             &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp HOME
-&sys_reset   &trans     &trans     &kp LEFT_ALT  &kp LG(F)  &trans                &kp H  &kp ENTER  &kp J  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
-&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)  &trans  &kp C_MUTE           &kp L             &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
+&sys_reset   &trans     &trans     &kp LEFT_ALT  &kp LG(F)  &trans                &kp H  &kp ENTER  &kp L  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
+&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)  &trans  &kp C_MUTE           &kp J             &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
                                    &trans        &trans     &trans                                         &trans     &trans        &trans
             >;
 

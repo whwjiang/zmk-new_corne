@@ -54,10 +54,10 @@
         default_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp F     &kp P  &kp G                               &kp K             &kp J        &kp L  &kp U             &kp Y    &kp SEMICOLON  &kp BSPC
-&kp ESCAPE      &kp A  &kp R  &kp S     &kp T  &kp D                        &kp H  &kp ENTER  &kp L  &kp H        &kp N  &kp E             &kp I    &kp O          &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B           &mkp MCLK           &kp J             &kp K        &kp M  &kp COMMA         &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
-                              &kp LGUI  &mo 1  &mt LALT ENTER                                        &lt 3 SPACE  &mo 2  &mt RCTRL DELETE
+&kp TAB         &kp Q  &kp W  &kp F         &kp P             &kp G                               &kp K             &kp J        &kp L  &kp U             &kp Y    &kp SEMICOLON  &kp BSPC
+&kp ESCAPE      &kp A  &kp R  &kp S         &kp T             &kp D                        &kp H  &kp ENTER  &kp L  &kp H        &kp N  &kp E             &kp I    &kp O          &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V             &kp B           &mkp MCLK           &kp J             &kp K        &kp M  &kp COMMA         &kp DOT  &kp FSLH       &kp RIGHT_SHIFT
+                              &mt LGUI TAB  &lt 1 LEFT_SHIFT  &mt LALT ENTER                                        &lt 3 SPACE  &mo 2  &mt RCTRL DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;

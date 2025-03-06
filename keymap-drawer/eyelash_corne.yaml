@@ -70,7 +70,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - H
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - J
+  - L
   - {t: '-', s: _}
   - '4'
   - '5'
@@ -84,7 +84,7 @@ layers:
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - L
+  - J
   - {t: '0', s: )}
   - '1'
   - '2'

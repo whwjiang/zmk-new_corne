@@ -1,6 +1,6 @@
 layers:
   TYPE:
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - {t: '''', s: '"'}
   - {t: ',', s: <}
   - .
@@ -13,7 +13,7 @@ layers:
   - R
   - L
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-caps$$
   - A
   - O
   - E

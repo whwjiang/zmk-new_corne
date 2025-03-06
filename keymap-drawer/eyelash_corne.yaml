@@ -1,95 +1,95 @@
 layers:
   TYPE:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - F
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
   - P
+  - F
+  - $$mdi:arrow-up-bold$$
+  - F
   - G
-  - K
-  - J
+  - C
+  - R
   - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - A
-  - R
-  - S
-  - T
-  - D
-  - H
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - L
-  - H
-  - N
+  - O
   - E
   - I
-  - O
-  - {t: '''', s: '"'}
+  - U
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: ;, s: ':'}
+  - Q
   - J
   - K
+  - X
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:arrow-down-bold$$
+  - B
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - W
+  - V
+  - Z
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-tab$$', h: LGUI}
   - {t: '$$mdi:keyboard-esc$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-control$$'}
   NUMBER:
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-up-bold$$
-  - {t: '-', s: _}
+  - K
+  - +
   - '7'
   - '8'
   - '9'
-  - {t: /, s: '?'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - HOME
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
+  - H
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - +
+  - J
+  - {t: '-', s: _}
   - '4'
   - '5'
   - '6'
   - {t: '=', s: +}
   - PG UP
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - $$mdi:arrow-down-bold$$
+  - L
   - {t: '0', s: )}
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -110,7 +110,7 @@ layers:
   - {t: ']', s: '}'}
   - ^
   - '@'
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -125,7 +125,7 @@ layers:
   - )
   - '#'
   - {t: \, s: '|'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -134,12 +134,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
+  - {t: '-', s: _}
   - '{'
   - '}'
-  - '}'
   - '|'
-  - '~'
+  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,8 +187,8 @@ layers:
   - RGB BRI
   - RGB BRD
   - RGB EFF
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - $$mdi:progress-download$$
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

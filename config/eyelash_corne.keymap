@@ -55,10 +55,10 @@
         default_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP_ARROW             &kp F        &kp G            &kp C          &kp R  &kp L  &kp SLASH
-&kp ESCAPE      &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER     &kp RIGHT  &kp D        &kp H            &kp T          &kp N  &kp S  &kp MINUS
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp MCLK              &kp DOWN                 &kp B        &kp M            &kp W          &kp V  &kp Z  &kp RIGHT_SHIFT
-                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                                  &lt 3 SPACE  &lt 2 BACKSPACE  &mt RCTRL DEL
+&kp TAB         &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP_ARROW             &kp F        &kp G  &kp C          &kp R  &kp L  &kp BACKSPACE
+&kp ESCAPE      &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER     &kp RIGHT  &kp D        &kp H  &kp T          &kp N  &kp S  &kp MINUS
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp MCLK              &kp DOWN                 &kp B        &kp M  &kp W          &kp V  &kp Z  &kp RIGHT_SHIFT
+                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                                  &lt 3 SPACE  &to 2  &mt RCTRL DEL
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -67,7 +67,7 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&bootloader  &trans     &trans     &trans        &trans     &trans                       &kp K             &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans     &kp HOME
+&bootloader  &trans     &trans     &trans        &trans     &trans                       &kp K             &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp HOME
 &sys_reset   &trans     &trans     &kp LEFT_ALT  &kp LG(F)  &trans                &kp H  &kp ENTER  &kp J  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
 &trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)  &trans  &kp C_MUTE           &kp L             &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
                                    &trans        &trans     &trans                                         &trans     &trans        &trans

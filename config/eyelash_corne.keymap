@@ -55,37 +55,35 @@
         default_layer {
             display-name = "TYPE";
             bindings = <
-&kp GRAVE       &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP_ARROW             &kp F        &kp G  &kp C          &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER     &kp RIGHT  &kp D        &kp H  &kp T          &kp N  &kp S  &kp MINUS
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp MCLK              &kp DOWN                 &kp B        &kp M  &kp W          &kp V  &kp Z  &kp RIGHT_SHIFT
-                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                                  &lt 3 SPACE  &to 2  &mt RCTRL DEL
+&kp GRAVE       &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP_ARROW             &kp F        &kp G        &kp C                &kp R  &kp L  &kp DELETE
+&kp CAPSLOCK    &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER     &kp RIGHT  &kp D        &kp H        &kp T                &kp N  &kp S  &kp MINUS
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp MCLK              &kp DOWN                 &kp B        &kp M        &kp W                &kp V  &kp Z  &kp RIGHT_SHIFT
+                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                                  &lt 3 SPACE  &lt 2 SPACE  &mt RCTRL BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "NUM";
             bindings = <
-&bootloader  &trans     &trans     &trans        &trans     &trans                       &kp K             &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp HOME
-&sys_reset   &trans     &trans     &kp LEFT_ALT  &kp LG(F)  &trans                &kp H  &kp ENTER  &kp L  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
-&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)  &trans  &kp C_MUTE           &kp J             &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
-                                   &trans        &trans     &trans                                         &trans     &trans        &trans
+&bootloader  &trans     &trans     &trans        &trans     &trans                   &kp K             &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &kp HOME
+&sys_reset   &trans     &kp RCTRL  &kp LEFT_ALT  &kp LG(F)  &trans            &kp H  &kp ENTER  &kp L  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &kp PG_UP
+&trans       &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)  &trans  &trans           &kp J             &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
+                                   &trans        &trans     &trans                                     &trans     &trans        &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "SYM";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                     &mmv MOVE_UP                     &kp AMPERSAND    &kp LBKT              &kp RBKT               &kp CARET  &kp AT_SIGN    &bootloader
-&trans  &trans  &trans  &trans  &trans  &trans                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND  &kp BACKSLASH  &sys_reset
-&trans  &trans  &trans  &none   &trans  &trans  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp GRAVE      &trans
-                        &trans  &trans  &trans                                                                      &trans           &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans                            &mmv MOVE_UP                     &kp AMPERSAND    &kp LBKT              &kp RBKT               &kp CARET  &kp AT_SIGN    &bootloader
+&trans  &trans  &trans  &trans  &trans  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp POUND  &kp BACKSLASH  &sys_reset
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                    &mmv MOVE_DOWN                   &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE   &kp GRAVE      &trans
+                        &trans  &trans  &trans                                                             &trans           &trans                &trans
             >;
 
-            sensor-bindings = <&rgb_encoder>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_3 {

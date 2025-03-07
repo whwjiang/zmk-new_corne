@@ -12,7 +12,7 @@ layers:
   - C
   - R
   - L
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
   - O
@@ -41,21 +41,21 @@ layers:
   - W
   - V
   - Z
-  - $$mdi:apple-keyboard-shift$$
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-tab$$', h: LGUI}
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ':', h: SYM}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   NUM:
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+W
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - K
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - +
   - '7'
   - '8'
@@ -63,18 +63,18 @@ layers:
   - {t: /, s: '?'}
   - HOME
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - H
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - L
-  - {t: '-', s: _}
-  - '4'
-  - '5'
-  - '6'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '-', h: H, s: _}
+  - {t: '4', h: J}
+  - {t: '5', h: K}
+  - {t: '6', h: L}
   - {t: '=', s: +}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -83,8 +83,8 @@ layers:
   - {t: C, h: '$$mdi:apple-keyboard-command$$'}
   - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - J
+  - $$mdi:volume-off$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '0', s: )}
   - '1'
   - '2'
@@ -98,28 +98,28 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   SYM:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - ^
   - '@'
   - $$mdi:progress-download$$
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '!'
   - (
   - )
@@ -132,8 +132,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - '{'
   - '}'
@@ -145,53 +145,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - RGB SAI
-  - RGB SAD
-  - RGB HUI
-  - RGB HUD
-  - RGB SPI
-  - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB TOG
-  - RGB BRI
-  - RGB BRD
-  - RGB EFF
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

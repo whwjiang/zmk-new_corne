@@ -6,22 +6,22 @@ layers:
   - .
   - P
   - Y
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F
   - G
   - C
   - R
   - L
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - O
   - E
   - U
   - I
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - D
   - H
   - T
@@ -35,13 +35,13 @@ layers:
   - K
   - X
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - B
   - M
   - W
   - V
   - Z
-  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-tab$$', h: LGUI}
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -56,11 +56,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - +
+  - {t: '$$mdi:transfer$$', type: trans}
   - '7'
   - '8'
   - '9'
-  - {t: /, s: '?'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
@@ -71,11 +71,11 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', h: H, s: _}
-  - {t: '4', h: J}
-  - {t: '5', h: K}
-  - {t: '6', h: L}
   - {t: '=', s: +}
+  - '4'
+  - '5'
+  - '6'
+  - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
@@ -132,7 +132,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - '{'

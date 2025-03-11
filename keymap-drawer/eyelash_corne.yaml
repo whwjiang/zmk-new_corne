@@ -46,28 +46,28 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ':', h: SYM}
+  - {t: ':', h: VIM}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   NUM:
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+W
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '@'
+  - ^
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '-', s: _}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - +
   - '7'
   - '8'
   - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
+  - '#'
+  - (
+  - )
+  - '!'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -78,11 +78,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - '|'
+  - '{'
+  - '}'
+  - '&'
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '0', s: )}
@@ -97,7 +97,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYM:
+  VIM:
   - F1
   - F2
   - F3
@@ -105,11 +105,11 @@ layers:
   - F5
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - ^
-  - '@'
+  - Y
+  - U
+  - I
+  - O
+  - P
   - $$mdi:progress-download$$
   - F7
   - F8
@@ -120,11 +120,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - (
-  - )
-  - '#'
-  - {t: \, s: '|'}
+  - H
+  - J
+  - K
+  - L
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -134,11 +134,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - '{'
-  - '}'
-  - '|'
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

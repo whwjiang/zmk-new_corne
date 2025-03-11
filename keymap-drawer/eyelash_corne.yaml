@@ -6,7 +6,7 @@ layers:
   - .
   - P
   - Y
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-up-bold$$
   - F
   - G
   - C
@@ -19,9 +19,9 @@ layers:
   - E
   - U
   - I
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
   - D
   - H
   - T
@@ -34,8 +34,8 @@ layers:
   - J
   - K
   - X
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-down-bold$$
   - B
   - M
   - W

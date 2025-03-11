@@ -54,10 +54,10 @@
         default_layer {
             display-name = "TYPE";
             bindings = <
-&kp GRAVE       &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                        &mmv MOVE_UP                     &kp F                &kp G        &kp C                &kp R  &kp L  &kp SLASH
-&kp CAPSLOCK    &kp A          &kp O      &kp E         &kp U         &kp I                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp D                &kp H        &kp T                &kp N  &kp S  &kp MINUS
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp MCLK                    &mmv MOVE_DOWN                   &kp B                &kp M        &kp W                &kp V  &kp Z  &kp RIGHT_SHIFT
-                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                                                &mt RIGHT_ALT SPACE  &lt 2 COLON  &mt RCTRL BACKSPACE
+&kp GRAVE       &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP                &kp F                &kp G        &kp C                &kp R  &kp L  &kp SLASH
+&kp CAPSLOCK    &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp D                &kp H        &kp T                &kp N  &kp S  &kp MINUS
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp LCLK              &kp DOWN              &kp B                &kp M        &kp W                &kp V  &kp Z  &kp RIGHT_SHIFT
+                                          &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                               &mt RIGHT_ALT SPACE  &lt 2 COLON  &mt RCTRL BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;

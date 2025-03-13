@@ -54,13 +54,13 @@ layers:
   - '*'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - ^
+  - $
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - +
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ^
   - HOME
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: \, s: '|'}

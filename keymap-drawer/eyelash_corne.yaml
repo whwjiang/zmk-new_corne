@@ -12,7 +12,7 @@ layers:
   - C
   - R
   - L
-  - {t: /, s: '?'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
   - O
@@ -27,7 +27,7 @@ layers:
   - T
   - N
   - S
-  - {t: '-', s: _}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - {t: ;, s: ':'}
   - Q
@@ -51,10 +51,10 @@ layers:
   NUM:
   - $$mdi:progress-download$$
   - '@'
-  - ^
+  - '*'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '-', s: _}
+  - ^
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - +
   - '7'
@@ -75,7 +75,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}

@@ -76,12 +76,12 @@
         };
 
         raise_layer {
-            display-name = "VIM";
+            display-name = "UTIL";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &kp Y   &kp U   &kp I   &kp O   &kp P   &bootloader
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12            &trans  &trans  &trans  &kp H   &kp J   &kp K   &kp L   &trans  &sys_reset
-&trans  &trans  &trans  &trans   &trans   &trans   &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans   &trans   &trans                                     &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &trans  &trans    &trans    &trans  &trans     &bootloader
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12            &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &sys_reset
+&trans  &trans  &trans  &trans   &trans   &trans   &trans            &trans          &trans  &trans    &trans    &trans  &trans     &trans
+                        &trans   &trans   &trans                                     &trans  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;

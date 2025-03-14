@@ -106,10 +106,10 @@ layers:
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+$
+  - {t: \, s: '|'}
+  - Sft+{
+  - Sft+}
   - $$mdi:progress-download$$
   - F7
   - F8

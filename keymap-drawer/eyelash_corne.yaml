@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   TYPE:
   - {t: '`', s: '~'}
@@ -50,7 +51,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   NUM:
   - $$mdi:progress-download$$
-  - '@'
+  - {t: \, s: '|'}
   - '*'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -63,8 +64,8 @@ layers:
   - ^
   - HOME
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: \, s: '|'}
   - '#'
+  - '@'
   - (
   - )
   - '!'

@@ -55,7 +55,7 @@
             display-name = "TYPE";
             bindings = <
 &kp GRAVE       &kp SQT        &kp COMMA  &kp PERIOD    &kp P         &kp Y                                  &kp UP                &kp F                &kp G        &kp C                &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp D                &kp H        &kp T                &kp N  &kp S  &kp SLASH
+&caps_word      &kp A          &kp O      &kp E         &kp U         &kp I                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp D                &kp H        &kp T                &kp N  &kp S  &kp SLASH
 &kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J         &kp K         &kp X           &mkp LCLK              &kp DOWN              &kp B                &kp M        &kp W                &kp V  &kp Z  &kp RIGHT_SHIFT
                                           &mt LGUI TAB  &lt 1 ESCAPE  &mt LALT ENTER                                               &mt RIGHT_ALT SPACE  &lt 2 COLON  &mt RCTRL BACKSPACE
             >;
@@ -76,12 +76,12 @@
         };
 
         raise_layer {
-            display-name = "UTIL";
+            display-name = "NAV";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &trans  &kp LS(DLLR)  &kp BSLH  &kp LS(LBRC)  &kp LS(RBRC)  &bootloader
-&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12            &trans  &trans  &trans  &trans  &kp LEFT      &kp DOWN  &kp UP        &kp RIGHT     &sys_reset
-&trans  &trans  &trans  &trans   &trans   &trans   &trans            &trans          &trans  &trans        &trans    &trans        &trans        &trans
-                        &trans   &trans   &trans                                     &trans  &trans        &trans
+&kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans          &trans       &kp RA(H)   &kp RA(J)   &kp RA(K)   &kp RA(L)   &bootloader
+&kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12            &trans  &trans  &trans  &kp RA(TAB)  &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &sys_reset
+&trans  &trans  &trans  &trans   &trans   &trans   &trans            &trans          &kp RA(N1)   &kp RA(N2)  &kp RA(N3)  &kp RA(N4)  &kp RA(N5)  &trans
+                        &trans   &trans   &trans                                     &trans       &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;

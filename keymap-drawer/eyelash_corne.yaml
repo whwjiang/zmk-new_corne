@@ -14,7 +14,7 @@ layers:
   - R
   - L
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:alpha-w-box$$
   - A
   - O
   - E
@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ':', h: UTIL}
+  - {t: ':', h: NAV}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   NUM:
   - $$mdi:progress-download$$
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  UTIL:
+  NAV:
   - F1
   - F2
   - F3
@@ -107,10 +107,10 @@ layers:
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+$
-  - {t: \, s: '|'}
-  - Sft+{
-  - Sft+}
+  - AltGr+H
+  - AltGr+J
+  - AltGr+K
+  - AltGr+L
   - $$mdi:progress-download$$
   - F7
   - F8
@@ -121,7 +121,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -135,11 +135,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+1, s: AltGr+!}
+  - {t: AltGr+2, s: AltGr+@}
+  - {t: AltGr+3, s: AltGr+#}
+  - {t: AltGr+4, s: AltGr+$}
+  - {t: AltGr+5, s: AltGr+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

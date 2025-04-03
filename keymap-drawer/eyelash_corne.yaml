@@ -90,7 +90,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}

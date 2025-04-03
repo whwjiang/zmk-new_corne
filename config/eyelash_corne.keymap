@@ -66,9 +66,9 @@
         lower_layer {
             display-name = "NUM";
             bindings = <
-&bootloader  &kp BACKSLASH  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR                                     &mmv MOVE_UP                     &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CARET  &kp HOME
-&sys_reset   &kp POUND      &kp AT_SIGN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PG_UP
-&trans       &kp GRAVE      &kp PIPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &kp PG_DN
+&bootloader  &kp BACKSLASH  &kp ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR                                     &mmv MOVE_UP                     &kp PLUS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CARET       &kp HOME
+&sys_reset   &kp POUND      &kp AT_SIGN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS       &kp PG_UP
+&trans       &kp GRAVE      &kp PIPE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AMPERSAND    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDERSCORE  &kp PG_DN
                                           &trans                &trans                 &trans                                                                          &trans     &trans        &trans
             >;
 

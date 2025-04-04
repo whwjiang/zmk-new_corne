@@ -45,53 +45,53 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-tab$$', h: LGUI}
   - {t: '$$mdi:keyboard-esc$$', h: NUM}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: ':', h: NAV}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', h: RGUI}
   NUM:
   - $$mdi:progress-download$$
-  - {t: \, s: '|'}
-  - '*'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - $
+  - '1'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - +
-  - '7'
-  - '8'
-  - '9'
-  - ^
-  - HOME
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '-', s: _}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '#'
-  - '@'
-  - (
-  - )
   - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '=', s: +}
-  - '4'
-  - '5'
-  - '6'
-  - {t: '-', s: _}
-  - PG UP
+  - (
+  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - +
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - '|'
-  - '{'
-  - '}'
   - '&'
+  - {t: \, s: '|'}
+  - _
+  - ^
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '0', s: )}
-  - '1'
-  - '2'
-  - '3'
-  - _
-  - PG DN
+  - '{'
+  - '}'
+  - <
+  - '>'
+  - '*'
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,11 +106,11 @@ layers:
   - F5
   - F6
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+H
   - AltGr+J
   - AltGr+K
   - AltGr+L
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - F7
   - F8
@@ -121,11 +121,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+$$mdi:keyboard-tab$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,12 +135,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+$$mdi:keyboard-tab$$
   - {t: AltGr+1, s: AltGr+!}
   - {t: AltGr+2, s: AltGr+@}
   - {t: AltGr+3, s: AltGr+#}
   - {t: AltGr+4, s: AltGr+$}
   - {t: AltGr+5, s: AltGr+%}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

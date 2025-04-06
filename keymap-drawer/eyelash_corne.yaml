@@ -110,7 +110,7 @@ layers:
   - AltGr+J
   - AltGr+K
   - AltGr+L
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'AltGr+,', s: AltGr+<}
   - $$mdi:progress-download$$
   - F7
   - F8
@@ -125,7 +125,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: AltGr+/, s: 'AltGr+?'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

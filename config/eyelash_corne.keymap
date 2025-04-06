@@ -66,10 +66,10 @@
         lower_layer {
             display-name = "NUM";
             bindings = <
-&bootloader  &kp NUMBER_1     &kp N2       &kp N3     &kp N4          &kp N5                                     &mmv MOVE_UP                     &kp N6     &kp N7                &kp N8                 &kp N9             &kp N0           &trans
-&sys_reset   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR      &kp PERCENT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
-&trans       &kp GRAVE        &kp AMPS     &kp BSLH   &kp UNDERSCORE  &kp CARET    &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp ASTRK        &trans
-                                           &trans     &trans          &trans                                                                      &trans     &trans                &trans
+&bootloader  &kp NUMBER_1     &kp N2       &kp N3     &kp N4      &kp N5                                        &mmv MOVE_UP                     &kp N6     &kp N7                &kp N8                 &kp N9             &kp N0           &trans
+&sys_reset   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
+&trans       &kp GRAVE        &kp AMPS     &kp BSLH   &kp CARET   &kp UNDERSCORE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp ASTRK        &trans
+                                           &trans     &trans      &trans                                                                         &trans     &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

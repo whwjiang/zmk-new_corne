@@ -135,12 +135,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+1
+  - AltGr+2
+  - AltGr+3
+  - AltGr+4
+  - AltGr+5
   - AltGr+$$mdi:keyboard-tab$$
-  - {t: AltGr+1, s: AltGr+!}
-  - {t: AltGr+2, s: AltGr+@}
-  - {t: AltGr+3, s: AltGr+#}
-  - {t: AltGr+4, s: AltGr+$}
-  - {t: AltGr+5, s: AltGr+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

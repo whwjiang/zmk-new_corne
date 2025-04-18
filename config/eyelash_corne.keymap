@@ -88,10 +88,10 @@
         nav_layer {
             display-name = "NAV/FN";
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME                                  &trans          &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(COMMA)     &bootloader
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(SLASH)     &sys_reset
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &rgb_ug RGB_TOG            &trans          &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &kp RA(TAB)
-                         &trans   &trans   &trans                                                    &trans            &trans            &trans
+&bt BT_CLR  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME                                  &trans          &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(COMMA)     &bootloader
+&bt BT_NXT  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(SLASH)     &sys_reset
+&trans      &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &rgb_ug RGB_TOG            &trans          &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &trans
+                             &trans   &trans   &trans                                                    &trans            &trans            &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -109,12 +109,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        util_cond {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };

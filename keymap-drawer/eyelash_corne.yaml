@@ -2,7 +2,7 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   TYPE:
   - $$mdi:keyboard-tab$$
-  - {t: '''', s: '"'}
+  - {t: '`', s: '~'}
   - {t: ',', s: <}
   - .
   - P
@@ -44,10 +44,10 @@ layers:
   - Z
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: NUM, s: ':'}
+  - {t: '''', h: NUM, s: '"'}
   - {t: '$$mdi:keyboard-return$$', h: LGUI}
-  - $$mdi:keyboard-space$$
-  - {t: ':', h: NAV/FN}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ;, h: NAV/FN, s: ':'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   NUM:
   - $$mdi:progress-download$$

@@ -64,10 +64,10 @@
         type_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp GRAVE      &kp COMMA  &kp PERIOD        &kp P               &kp Y                                         &mmv MOVE_UP                     &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A          &kp O      &kp E             &kp U               &kp I                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
-&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE                    &mmv MOVE_DOWN                   &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
-                                          &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                                 &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
+&kp TAB         &kp GRAVE      &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
+&kp CAPSLOCK    &kp A          &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
+                                          &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -76,10 +76,10 @@
         num_layer {
             display-name = "NUM";
             bindings = <
-&bootloader  &kp NUMBER_1     &kp N2       &kp N3     &kp N4      &kp N5                           &trans          &kp N6     &kp N7                &kp N8                 &kp N9             &kp N0           &trans
-&sys_reset   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT              &trans  &trans  &trans  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
-&trans       &kp GRAVE        &kp AMPS     &kp BSLH   &kp CARET   &kp UNDERSCORE  &none            &trans          &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp ASTRK        &trans
-                                           &trans     &trans      &trans                                           &trans     &trans                &trans
+&bootloader  &kp NUMBER_1     &kp N2       &kp N3     &kp N4      &kp N5                          &kp UP                 &kp N6     &kp N7                &kp N8                 &kp N9             &kp N0           &trans
+&sys_reset   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT              &kp B  &trans          &kp W  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
+&trans       &kp GRAVE        &kp AMPS     &kp BSLH   &kp CARET   &kp UNDERSCORE  &none           &kp DOWN_ARROW         &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp ASTRK        &trans
+                                           &trans     &trans      &trans                                                 &trans     &trans                &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;

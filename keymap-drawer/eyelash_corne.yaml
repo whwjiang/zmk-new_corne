@@ -30,7 +30,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - Q
   - J
   - K

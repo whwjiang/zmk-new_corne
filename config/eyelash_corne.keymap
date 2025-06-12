@@ -58,16 +58,80 @@
         bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        bootloader_left {
+            bindings = <&bootloader>;
+            key-positions = <0 13>;
+            layers = <0>;
+        };
+
+        bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <12 27>;
+            layers = <0>;
+        };
+
+        reset_left {
+            bindings = <&sys_reset>;
+            key-positions = <13 28>;
+            layers = <0>;
+        };
+
+        reset_right {
+            bindings = <&sys_reset>;
+            key-positions = <27 41>;
+            layers = <0>;
+        };
+
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <1 14>;
+            layers = <0>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <15 2>;
+            layers = <0>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <3 16>;
+            layers = <0>;
+        };
+
+        bt3 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <4 17>;
+            layers = <0>;
+        };
+
+        bt4 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <5 18>;
+            layers = <0>;
+        };
+
+        bt_clr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <29 14>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         type_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp GRAVE       &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A           &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
-&kp LEFT_SHIFT  &sk LEFT_SHIFT  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
-                                           &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
+&kp TAB         &kp GRAVE  &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
+&kp CAPSLOCK    &kp A      &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
+&kp LEFT_SHIFT  &kp MINUS  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
+                                      &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -76,10 +140,10 @@
         num_layer {
             display-name = "NUM";
             bindings = <
-&bootloader  &kp NUMBER_1     &kp N2       &kp N3     &kp N4      &kp N5                          &kp UP                 &kp N6     &kp N7                &kp N8                 &kp N9             &kp N0           &trans
-&sys_reset   &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT              &kp B  &trans          &kp W  &kp PLUS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE     &kp RIGHT_BRACE  &trans
-&trans       &kp GRAVE        &kp AMPS     &kp BSLH   &kp CARET   &kp UNDERSCORE  &none           &kp DOWN_ARROW         &kp MINUS  &kp EQUAL             &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp ASTRK        &trans
-                                           &trans     &trans      &trans                                                 &trans     &trans                &trans
+&trans  &kp NUMBER_1     &kp N2       &kp N3            &kp N4             &kp N5                          &kp UP                 &kp N6     &kp N7          &kp N8           &kp N9                &kp N0                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND         &kp DOLLAR         &kp PERCENT              &kp B  &trans          &kp W  &kp CARET  &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans           &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE  &none           &kp DOWN_ARROW         &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH         &trans                 &trans
+                                      &trans            &trans             &trans                                                 &trans     &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -88,24 +152,24 @@
         nav_layer {
             display-name = "NAV/FN";
             bindings = <
-&bt BT_CLR  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME                                  &trans          &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(COMMA)     &bootloader
-&bt BT_NXT  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(SLASH)     &sys_reset
-&trans      &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &rgb_ug RGB_TOG            &trans          &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &trans
-                             &trans   &trans   &trans                                                    &trans            &trans            &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME                                  &trans          &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &trans            &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(TAB)       &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &rgb_ug RGB_TOG            &trans          &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)  &kp RA(NUMBER_6)
+                         &trans   &trans   &trans                                                    &trans            &trans            &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
         };
 
-        util {
+        fn_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &bt BT_PRV       &trans           &trans           &bt BT_NXT       &trans  &bt BT_CLR
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &rgb_ug RGB_SAD  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &trans  &trans
-                        &trans  &trans  &trans                                    &trans           &trans           &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &trans          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans   &trans   &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
 
-            label = "UTIL";
+            label = "FN";
         };
     };
 

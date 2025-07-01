@@ -87,37 +87,37 @@
 
         bt0 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <1 14>;
+            key-positions = <1 29>;
             layers = <0>;
         };
 
         bt1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <15 2>;
+            key-positions = <2 30>;
             layers = <0>;
         };
 
         bt2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <3 16>;
+            key-positions = <3 31>;
             layers = <0>;
         };
 
         bt3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <4 17>;
+            key-positions = <4 32>;
             layers = <0>;
         };
 
         bt4 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <5 18>;
+            key-positions = <5 33>;
             layers = <0>;
         };
 
         bt_clr {
             bindings = <&bt BT_CLR>;
-            key-positions = <29 14>;
+            key-positions = <12 41>;
             layers = <0>;
         };
     };

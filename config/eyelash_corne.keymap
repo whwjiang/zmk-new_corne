@@ -63,61 +63,25 @@
 
         bootloader_left {
             bindings = <&bootloader>;
-            key-positions = <0 13>;
+            key-positions = <0 28>;
             layers = <0>;
         };
 
         bootloader_right {
             bindings = <&bootloader>;
-            key-positions = <12 27>;
+            key-positions = <12 41>;
             layers = <0>;
         };
 
         reset_left {
             bindings = <&sys_reset>;
-            key-positions = <13 28>;
+            key-positions = <42 0>;
             layers = <0>;
         };
 
         reset_right {
             bindings = <&sys_reset>;
-            key-positions = <27 41>;
-            layers = <0>;
-        };
-
-        bt0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <1 29>;
-            layers = <0>;
-        };
-
-        bt1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <2 30>;
-            layers = <0>;
-        };
-
-        bt2 {
-            bindings = <&bt BT_SEL 2>;
-            key-positions = <3 31>;
-            layers = <0>;
-        };
-
-        bt3 {
-            bindings = <&bt BT_SEL 3>;
-            key-positions = <4 32>;
-            layers = <0>;
-        };
-
-        bt4 {
-            bindings = <&bt BT_SEL 4>;
-            key-positions = <5 33>;
-            layers = <0>;
-        };
-
-        bt_clr {
-            bindings = <&bt BT_CLR>;
-            key-positions = <12 41>;
+            key-positions = <47 12>;
             layers = <0>;
         };
     };
@@ -128,10 +92,10 @@
         type_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp GRAVE  &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A      &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
-&kp LEFT_SHIFT  &kp MINUS  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
-                                      &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
+&kp TAB         &kp GRAVE   &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
+&kp CAPSLOCK    &kp A       &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
+&kp LEFT_SHIFT  &caps_word  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
+                                       &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -140,10 +104,10 @@
         num_layer {
             display-name = "NUM";
             bindings = <
-&trans  &kp NUMBER_1     &kp N2       &kp N3            &kp N4             &kp N5                          &kp UP                 &kp N6     &kp N7          &kp N8           &kp N9                &kp N0                 &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND         &kp DOLLAR         &kp PERCENT              &kp B  &trans          &kp W  &kp CARET  &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans           &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE  &none           &kp DOWN_ARROW         &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH         &kp PIPE               &trans
-                                      &trans            &trans             &trans                                                 &trans     &trans          &trans
+&trans  &kp NUMBER_1     &kp N2       &kp N3            &kp N4             &kp N5                       &kp UP                 &kp N6     &kp N7          &kp N8           &kp N9                &kp N0                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND         &kp DOLLAR         &kp PERCENT           &kp B  &trans          &kp W  &kp CARET  &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans           &kp PLUS     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS    &none           &kp DOWN_ARROW         &kp EQUAL  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH         &kp PIPE               &trans
+                                      &trans            &trans             &trans                                              &trans     &trans          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -161,17 +125,24 @@
             sensor-bindings = <&rgb_encoder>;
         };
 
-        fn_layer {
+        bt_layer {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &trans          &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans   &trans   &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+                        &trans  &trans  &trans                                    &trans        &trans        &trans
             >;
 
-            label = "FN";
+            label = "BT";
         };
     };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        bt_activate {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };

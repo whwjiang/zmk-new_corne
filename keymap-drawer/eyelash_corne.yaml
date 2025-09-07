@@ -30,7 +30,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '-', s: _}
+  - $$mdi:alpha-w-box$$
   - Q
   - J
   - K
@@ -83,7 +83,7 @@ layers:
   - +
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - _
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-down-bold$$
   - {t: '=', s: +}
@@ -147,20 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  FN:
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  BT:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,35 +182,30 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 13]
+- p: [0, 28]
   k: $$mdi:progress-download$$
-  l: [TYPE]
-- p: [12, 27]
-  k: $$mdi:progress-download$$
-  l: [TYPE]
-- p: [13, 28]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [TYPE]
-- p: [27, 41]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [TYPE]
-- p: [1, 29]
-  k: {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [2, 30]
-  k: {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [3, 31]
-  k: {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [4, 32]
-  k: {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  l: [TYPE]
-- p: [5, 33]
-  k: {h: '5', s: '$$mdi:bluetooth-connect$$'}
   l: [TYPE]
 - p: [12, 41]
-  k: $$mdi:bluetooth-off$$
+  k: $$mdi:progress-download$$
+  l: [TYPE]
+- p: [42, 0]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [TYPE]
+- p: [47, 12]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [TYPE]

@@ -30,7 +30,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:alpha-w-box$$
+  - {t: Ctl+;, s: 'Ctl+:'}
   - Q
   - J
   - K

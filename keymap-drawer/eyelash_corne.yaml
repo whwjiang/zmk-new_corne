@@ -30,7 +30,7 @@ layers:
   - S
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Ctl+;, s: 'Ctl+:'}
+  - <
   - Q
   - J
   - K
@@ -44,7 +44,7 @@ layers:
   - Z
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', h: NUM, s: '"'}
+  - NUM
   - {t: '$$mdi:keyboard-return$$', h: LGUI}
   - $$mdi:keyboard-space$$
   - {t: ;, h: NAV/FN, s: ':'}

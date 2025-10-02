@@ -94,10 +94,10 @@
         type_layer {
             display-name = "TYPE";
             bindings = <
-&kp TAB         &kp GRAVE          &kp COMMA  &kp PERIOD        &kp P               &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
-&kp CAPSLOCK    &kp A              &kp O      &kp E             &kp U               &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
-&kp LEFT_SHIFT  &kp LC(SEMICOLON)  &kp Q      &kp J             &kp K               &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
-                                              &mt LCTRL ESCAPE  &lt 1 SINGLE_QUOTE  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
+&kp TAB         &kp GRAVE       &kp COMMA  &kp PERIOD        &kp P  &kp Y                                   &kp UP                &kp F      &kp G       &kp C            &kp R  &kp L  &kp BACKSPACE
+&kp CAPSLOCK    &kp A           &kp O      &kp E             &kp U  &kp I                         &kp LEFT  &mkp LCLK  &kp RIGHT  &kp D      &kp H       &kp T            &kp N  &kp S  &kp SLASH
+&kp LEFT_SHIFT  &kp APOSTROPHE  &kp Q      &kp J             &kp K  &kp X           &kp C_MUTE              &kp DOWN              &kp B      &kp M       &kp W            &kp V  &kp Z  &kp RIGHT_SHIFT
+                                           &mt LCTRL ESCAPE  &mo 1  &mt LGUI ENTER                                                &kp SPACE  &lt 2 SEMI  &mt RALT DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

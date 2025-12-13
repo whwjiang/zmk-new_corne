@@ -106,10 +106,10 @@ layers:
   - F4
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+H
-  - AltGr+J
-  - AltGr+K
-  - AltGr+L
+  - Gui+H
+  - Gui+J
+  - Gui+K
+  - Gui+L
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -135,12 +135,12 @@ layers:
   - PgDn
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+1
-  - AltGr+2
-  - AltGr+3
-  - AltGr+4
-  - AltGr+5
-  - AltGr+6
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - Gui+6
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

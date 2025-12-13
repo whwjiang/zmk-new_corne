@@ -119,7 +119,7 @@
             display-name = "NAV/FN";
             bindings = <
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME                                  &trans          &kp RG(H)         &kp RG(J)         &kp RG(K)         &kp RG(L)         &trans            &trans
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &kp RA(TAB)       &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp PAGE_UP                       &trans  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP            &kp RIGHT         &trans            &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN  &rgb_ug RGB_TOG            &trans          &kp RG(NUMBER_1)  &kp RG(NUMBER_2)  &kp RG(NUMBER_3)  &kp RG(NUMBER_4)  &kp RG(NUMBER_5)  &kp RG(NUMBER_6)
                          &trans   &trans   &trans                                                    &trans            &trans            &trans
             >;
